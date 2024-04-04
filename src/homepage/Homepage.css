@@ -1,0 +1,52 @@
+.Homepage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.Homepage header {
+    background: url("../assets/homepage-header-bg.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.Homepage header .header-text {
+    margin-top: 200px;
+    font-size: 100px;
+    text-shadow: 7px 5px 10px black;
+}
+
+.Homepage main {
+    font-size: 30px;
+    margin-top: 50px;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.Homepage footer {
+    margin-top: 50px;
+}
+
+.Homepage footer .social-container {
+    gap: 30px;
+}
+
+.Homepage footer .social-container a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.Homepage footer .social-container a:hover a:active {
+    color: white;
+}
+
+.Homepage footer .footer-text {
+    margin-top: 20px;
+    font-size: 20px;
+}
